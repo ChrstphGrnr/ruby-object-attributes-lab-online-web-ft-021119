@@ -1,17 +1,19 @@
-class Dog 
+require 'pry'
+class Dog
   def name=(name)
-    @name = name 
+    @name = name
   end
-  
+
   def breed=(breed)
     @breed = breed
-  end 
-  
-  def name 
-    @name 
+    binding.pry
   end
-  
-  def breed 
+
+  def name
+    @name
+  end
+
+  def breed
     @breed
   end
-end 
+end
